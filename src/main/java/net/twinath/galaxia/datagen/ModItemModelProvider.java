@@ -18,8 +18,6 @@ public class ModItemModelProvider extends ItemModelProvider {
     @Override
     protected void registerModels() {
         simpleItem(ModItems.MIDNIGHT_RAILGUN);
-         simpleItem(ModItems.MILKIUM_BAR);
-         simpleItem(ModItems.MILKIUM_SCYTHE);
     }
 
     private ItemModelBuilder simpleItem(RegistryObject<Item> item) {

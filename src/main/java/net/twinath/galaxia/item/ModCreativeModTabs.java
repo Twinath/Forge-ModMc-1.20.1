@@ -15,12 +15,11 @@ public class ModCreativeModTabs {
             DeferredRegister.create(Registries.CREATIVE_MODE_TAB, Galaxia.MOD_ID);
 
     public static final RegistryObject<CreativeModeTab> GALAXIA_TAB = CREATIVE_MODE_TABS.register("galaxia_tab",
-            () -> CreativeModeTab.builder().icon(() -> new ItemStack(ModItems.MILKIUM_SCYTHE.get()))
+            () -> CreativeModeTab.builder().icon(() -> new ItemStack(ModItems.MIDNIGHT_RAILGUN.get()))
                     .title(Component.translatable("creativetab.tutorial_tab"))
                     .displayItems((itemDisplayParameters, output) -> {
-                        output.accept(ModItems.MILKIUM_SCYTHE.get());
-                        output.accept(ModItems.MILKIUM_BAR.get());
-                        output.accept(ModBlocks.MILKIUM_BLOCK.get());
+                        output.accept(ModItems.MIDNIGHT_RAILGUN.get());
+
                     })
                     .build());
 
