@@ -17,7 +17,7 @@ public class ModBlockLootTables extends BlockLootSubProvider {
 
     @Override
     protected void generate() {
-            this.dropSelf(ModBlocks.MILKIUM_BLOCK.get());
+
     }
 
     @Override
