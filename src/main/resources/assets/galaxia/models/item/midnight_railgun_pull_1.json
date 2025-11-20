@@ -1,0 +1,6 @@
+{
+    "parent": "galaxia:item/midnight_railgun",
+    "textures": {
+        "layer0": "galaxia:item/midnight_railgun_pull_1"
+    }
+}
