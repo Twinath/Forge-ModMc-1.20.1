@@ -1,6 +1,7 @@
 package net.twinath.galaxia.item;
 
 import net.minecraft.world.item.BowItem;
+import net.minecraft.world.item.SwordItem;
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.registries.DeferredRegister;
 import net.minecraft.world.item.Item;
@@ -13,8 +14,7 @@ public class ModItems {
             DeferredRegister.create(ForgeRegistries.ITEMS, Galaxia.MOD_ID);
 
     public static final RegistryObject<Item> MIDNIGHT_RAILGUN = ITEMS.register("midnight_railgun",
-            () -> new BowItem(new Item.Properties()));
-
+            () -> new BowItem(new Item.Properties().durability(5000)));
 
     public static void  register(IEventBus eventBus) {
         ITEMS.register(eventBus);
